@@ -1,5 +1,5 @@
 // Typescript definition file
-declare module 'fetch-intercept' {
+declare module '@nkzhangsn/fetch-intercept-isolate' {
   export interface FetchInterceptorResponse extends Response {
     request: Request;
   }

@@ -1,6 +1,6 @@
 {
-  "name": "fetch-intercept-isolate",
-  "version": "2.4.0",
+  "name": "@nkzhangsn/fetch-intercept-isolate",
+  "version": "2.4.3",
   "description": "Interceptor library for the native fetch command inspired by angular http intercepts.",
   "main": "lib/node.js",
   "browser": "lib/browser.js",
@@ -9,7 +9,7 @@
     "test": "eslint . && karma start",
     "test:watch": "karma start --no-single-run",
     "webpack": "webpack",
-    "prepublish": "npm test && webpack && webpack -p"
+    "prepublish": "webpack && webpack -p"
   },
   "homepage": "https://github.com/werk85/fetch-intercept",
   "bugs": {
